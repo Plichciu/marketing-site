@@ -1168,7 +1168,8 @@ body {
     -ms-flex-preferred-size: 60%;
         flex-basis: 60%;
   }
-  .contact__form input, .contact__form textarea {
+  .contact__form input,
+  .contact__form textarea {
     padding: 2rem;
     font-size: 1.8rem;
   }
@@ -1217,10 +1218,12 @@ body {
     font-size: 6rem;
     padding: 2rem 6rem;
   }
-  .primary__button .upLine, .primary__button .bottomLine {
+  .primary__button .upLine,
+  .primary__button .bottomLine {
     width: 20rem;
   }
-  .primary__button .leftLine, .primary__button .rightLine {
+  .primary__button .leftLine,
+  .primary__button .rightLine {
     height: 6rem;
   }
   .primary__img-desktop {
@@ -1318,10 +1321,12 @@ body {
     font-size: 1.6rem;
     padding: 1.4rem 2.6rem;
   }
-  .primary__button .upLine, .primary__button .bottomLine {
+  .primary__button .upLine,
+  .primary__button .bottomLine {
     width: 6.8rem;
   }
-  .primary__button .leftLine, .primary__button .rightLine {
+  .primary__button .leftLine,
+  .primary__button .rightLine {
     height: 2.4rem;
   }
 }

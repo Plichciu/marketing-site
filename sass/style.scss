@@ -547,7 +547,6 @@ body {
 			font-family: 'PT Sans', sans-serif;
 		}
 
-
 		textarea {
 			max-width: 100%;
 			max-height: 30rem;
@@ -890,26 +889,22 @@ body {
 		&__container {
 			order: 1;
 			flex-basis: 50%;
-			
 		}
 
 		&__title {
 			text-align: center;
 		}
 
-
 		&__img-section {
 			flex-basis: 50%;
 			order: 2;
 			img {
-				
 				width: 27rem;
 				height: 35rem;
 				position: absolute;
 				top: 200px;
 				right: 70px;
 				border-radius: 4rem;
-				
 			}
 		}
 
@@ -920,14 +915,13 @@ body {
 			position: absolute;
 			right: 0;
 			background-color: $light-green;
-
 		}
 	}
 
 	.portfolio {
 		&__container {
 			display: grid;
-			grid-template-columns: repeat(2, 1fr) ;
+			grid-template-columns: repeat(2, 1fr);
 			padding: 6rem 0;
 		}
 
@@ -939,7 +933,6 @@ body {
 		&__box {
 			width: 75%;
 			max-width: 70rem;
-			
 		}
 	}
 
@@ -957,7 +950,6 @@ body {
 			}
 		}
 
-
 		&__title {
 			width: 56rem;
 			padding: 1.4rem;
@@ -969,23 +961,20 @@ body {
 		&__form {
 			flex-basis: 60%;
 
-			input, textarea {
+			input,
+			textarea {
 				padding: 2rem;
 				font-size: 1.8rem;
 			}
-
 		}
 
 		&__socials {
 			padding: 0;
 			margin: 0;
 			flex-basis: 40%;
-
-		
 		}
 
 		&__box {
-			
 			width: 100%;
 			i {
 				width: 10rem;
@@ -996,9 +985,7 @@ body {
 				width: 40rem;
 				height: 5rem;
 			}
-			
 		}
-
 
 		&__form-button {
 			padding: 2rem 0;
@@ -1015,23 +1002,17 @@ body {
 			border-radius: 50%;
 			border: 12px solid $light-green;
 		}
-
-
-	
 	}
-
-
 }
 
-
 @media only screen and (min-width: 1400px) {
-
 	.primary {
 		&__title {
 			font-size: 12rem;
 		}
 
-		&__subText, &__subText--second {
+		&__subText,
+		&__subText--second {
 			font-size: 2.5rem;
 		}
 
@@ -1040,11 +1021,13 @@ body {
 			font-size: 6rem;
 			padding: 2rem 6rem;
 
-			.upLine, .bottomLine {
+			.upLine,
+			.bottomLine {
 				width: 20rem;
 			}
 
-			.leftLine, .rightLine {
+			.leftLine,
+			.rightLine {
 				height: 6rem;
 			}
 		}
@@ -1053,14 +1036,7 @@ body {
 			width: 60rem;
 			height: 60rem;
 		}
-
-		
-
-
-		
 	}
-
-
 }
 
 @media only screen and (min-width: 1800px) {
@@ -1069,7 +1045,8 @@ body {
 			font-size: 14rem;
 		}
 
-		&__subText, &__subText--second {
+		&__subText,
+		&__subText--second {
 			font-size: 2.8rem;
 		}
 
@@ -1112,7 +1089,7 @@ body {
 
 		&__img-section {
 			position: relative;
-	
+
 			width: 100%;
 			height: 100%;
 		}
@@ -1133,21 +1110,12 @@ body {
 			width: 80rem;
 			padding: 1.5rem 1rem;
 			font-size: 2rem;
-
 		}
-
-	
-
-		
 	}
-
-
 }
 
-
-@media (orientation: landscape) and (max-width: 1024px)  {
+@media (orientation: landscape) and (max-width: 1024px) {
 	.primary {
-
 		.desktop-div {
 			margin-top: 4.5rem;
 		}
@@ -1157,7 +1125,8 @@ body {
 		&__title {
 			font-size: 3rem;
 		}
-		&__subText, &__subText--second {
+		&__subText,
+		&__subText--second {
 			font-size: 1.4rem;
 		}
 
@@ -1165,11 +1134,13 @@ body {
 			font-size: 1.6rem;
 			padding: 1.4rem 2.6rem;
 
-			.upLine, .bottomLine {
+			.upLine,
+			.bottomLine {
 				width: 6.8rem;
 			}
 
-			.leftLine, .rightLine {
+			.leftLine,
+			.rightLine {
 				height: 2.4rem;
 			}
 		}
